@@ -1,0 +1,33 @@
+name: aman_codes
+description: A new YouTube Channel.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  #  This is Flutter Launcher Icon Dependencies
+  flutter_launcher_icons: "^0.8.0"
+
+# Now to add the Flutter Icons:
+flutter_icons:
+  android: "launcher_icons"
+  ios: true
+  image_path: 'assets/icon/icon.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+     - images/
+#     - Here we will add the directory of images
+#  Here in the assets there should be gap of 2 spaces and not 3 spaces
+# DONE
